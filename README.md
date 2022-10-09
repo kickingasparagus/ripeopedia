@@ -6,5 +6,6 @@ Team Members:
 - Daniel Morghati, Student No. 300320190
 - Itokiana Solofomalala, Student No. 300320019
 - Aparna Kagini, Student No. 300319243
+- Ahmad Soboh, Student No. 300294253
 Product Name: Ripeopedia
 Product Description: Website that gives information about what you can do with fruits/veggies that have gone bad (e.g., banana smoothie or vegetable broth recipes).
