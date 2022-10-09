@@ -11,4 +11,4 @@ Team Members:
 
 
 Product Name: Ripeopedia
-Product Description: A device that detects if a fruit is ripe and gives suggestions about what you can do with fruits/veggies that have gone bad (e.g., banana smoothie or vegetable broth recipes). 
+Product Description: A device that detects if a fruit is ripe and gives suggestions about what you can do with fruits/veggies that have gone bad (e.g., banana smoothie or vegetable broth recipes, etc.). 
