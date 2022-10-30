@@ -57,12 +57,12 @@ COLORS:
   clear: both;
 }
 
+/* Common elements */
 body {
   background-color: #FFD285
 }
 
-/* PRODUCTS PAGE */
-#products-page h1 {
+h1 {
   color: #362e21;
   font-weight: bold;
   text-align: center;
@@ -70,6 +70,7 @@ body {
   font-size: 45px;
 }
 
+/* PRODUCTS PAGE */
 .products {
   font-weight: bold;
   font-style: italic;
