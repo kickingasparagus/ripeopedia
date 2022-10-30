@@ -57,6 +57,10 @@ COLORS:
   clear: both;
 }
 
+body {
+  background-color: #FFD285
+}
+
 /* PRODUCTS PAGE */
 #products-page h1 {
   color: #362e21;
@@ -64,10 +68,6 @@ COLORS:
   text-align: center;
   padding: 20px;
   font-size: 45px;
-}
-
-#products-page {
-  background-color: #FFD285
 }
 
 .products {
