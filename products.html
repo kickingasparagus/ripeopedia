@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="products-page">
+    <div class="navBar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.png" />
+          </a>
+        </div>
 
+        <div class="navigation">
+          <a href="team.html">Features</a>
+          <h6 class="separator">|</h6>
+          <a href="team.html">Team</a>
+          <h6 class="separator">|</h6>
+          <a href="products.html">Products</a>
+          <h6 class="separator">|</h6>
+          <a href="recipes.html" id="recipes">Recipes</a>
+        </div>
+
+        <div class="clear-floats"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h1>Products</h1>
+      <div class="products">
+        <div class="product" id="ripeometer">
+            <h2>The Ripeometer</h2> 
+            <h4>To make the perfect apple <br> crumble</h4>
+            <hr>
+            <img class="product-img" src="images/RedRipeometer.png" />
+            <h3 class="price">$35.99</h3>
+            <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+        </div>
+          
+        <div class="product" id="rawometer">
+          <h2>The Rawometer</h2> 
+          <h4>To spare your toilet from <br> that putrid stench</h4>
+          <hr>
+          <img class="product-img" src="images/OrangeRawometer.png" />
+          <h3 class="price">$29.99</h3>
+          <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+        </div>
+          
+        <div class="product" id="cookometer">
+          <h2>The Cookometer</h2>
+          <h4>For those who use both but <br> only need one</h4>
+          <hr>
+          <img class="product-img" src="images/BlueCookometer.png" />
+          <h3 class="price">$45.99</h3>
+          <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+        </div>
+ 
+      </div>
+    </div>
+<!--  <script type="text/javascript" src="main.js"></script>-->
+      <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
