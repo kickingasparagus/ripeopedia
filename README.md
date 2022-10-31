@@ -4,6 +4,9 @@
 
 **Product Description:** Ripeopedia is device that checks a fruit/vegetable and tells its users whether that fruit/vegetable has gone bad (or how many days it has until it goes bad). 
 
+GitHub Pages Link:
+- https://kickingasparagus.github.io/ripeopedia/
+
 Ripeopedia also comes with a website (and an app) that gives suggestions about what you can do with fruits/veggies that have gone bad:
 - Recipes that use specific fruits/vegetables that have perished (like a banana smoothie or a vegetable broth, etc...)
 - Tutorials to using spoiled fruits as fertilizers
