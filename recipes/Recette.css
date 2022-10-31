@@ -1,0 +1,134 @@
+#all{
+	border: solid;
+	background-color:orange;
+	height: 800px;
+	width:700px ;
+}
+
+#header{
+	background-color:whitesmoke;
+	height:45px ;
+	width:700px ;
+	margin-top: -7px;
+}
+#logo img{
+	float: left;
+	margin-top: -1px;
+}
+#logo h6{
+	float: left;
+	margin-top:8px;
+}
+#menu
+{
+	height: 25px;
+	width: 300px;
+	margin-right: 70px;
+	margin-top: 7px;
+}
+#menu li
+{
+	display: inline;
+
+}
+#menu li a
+{
+	text-decoration: none;
+	color: black;
+
+
+}
+#icone img{
+	float: right;
+	margin-top: -15px;
+	margin-right: 25px;
+	
+}
+#content{
+	
+	width: 650px;
+	height: 250px;
+}
+#search{
+	
+	width:650px ;
+	height: 50px;
+	margin-top: -30px;
+}
+#search input
+{
+	height: 40px;
+	border-radius: 10px;
+	width: 550px;
+	margin-right:50px ;
+	background-color: ghostwhite;
+
+}
+
+#meat{
+	background-color: whitesmoke;
+	height: 250px;
+	width: 200px;
+	margin-right:450px;
+	margin-top: 15px;
+
+}
+#meat p{
+	font-style: cursive;
+	font-size: 20px;
+	color: brown;
+}
+#legumes{
+	background-color: whitesmoke;
+	height: 250px;
+	width: 200px;
+	margin-left:170 px;
+	margin-top: -250px;
+}
+#fruits{
+	background-color: whitesmoke;
+	height: 250px;
+	width: 200px;
+	margin-left: 450px;
+	margin-top: -250px;
+}
+#foot{
+	background-color: whitesmoke;
+	border-radius: 10px;
+	height:170px ;
+	width: 670px;
+	margin-top: -5px;
+}
+#example{
+	background-color: whitesmoke;
+	width: 200px;
+	height: 100px;
+	margin-right: 450px;
+	margin-top: 50px;
+}
+#example img{
+	margin-top: 15px;
+	background-color: whitesmoke;
+}
+#explication{
+	
+	height: 180px;
+	width: 150px;
+	margin-right: 80px;
+	margin-top: -110px;
+}
+#explication li{
+	font-style: cursive;
+	font-size: 10px;
+}
+#jam{
+	
+	height: 200px;
+	width: 290px;
+	float: right;
+	margin-top: -180px;
+	margin-right: 5px;
+}
+#jam img{
+	border-radius: 10px;
+}
