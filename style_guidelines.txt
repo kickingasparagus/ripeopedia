@@ -1,0 +1,33 @@
+Overall look and feel of Ripeopedia
+===============================
+The website should feel casual and look sort of like a strawberry cake (given its pink and yellow/beige design). The buttons should be flat to appeal to the cozy side of the website.
+
+Colors
+===============================
+For Ripeopedia, colors remind the user that this website is directed towards cooking and baking; it’s a food website and so the colors should feel like delicious food, salty or sweet.
+
+Here are our color swatches:
+- #FE7E7E (Pink)
+- #57462B (Brown)
+- #26110C (Dark Brown)
+- #FFDCA0 (Beige)
+- #FED24C (Yellow)
+
+
+Iconography
+===============================
+Our icons will be flat and minimalistic. They will have a single color to keep the relaxed atmosphere of the website. When selecting an icon, we will keep the following in mind:
+
+
+Typography
+===============================
+We will be using Verdana from Microsoft
+
+
+Links
+===============================
+External links will be underlined and should change colors when a user hovers over it. Links to other parts of the website will not be underlined but will change colors when hovered over. 
+
+Buttons
+===============================
+Buttons will be flat designed using the colors outlined above
