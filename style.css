@@ -175,3 +175,47 @@ h1 {
     font-weight: normal;
     white-space: nowrap
 }
+
+/* Main page */
+#main-page h2 {
+    color: #362e21;
+    text-align: center;
+    font-style: italic;
+}
+
+#main-logo {
+  width: 600px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-page .content a {
+  text-decoration: none;
+  color: #FFD285;
+  background-color: #FE7E7E;
+  padding: 15px;
+  border-radius:10px; 
+  text-decoration: none;
+  font-size: 24px;
+  position: absolute;
+  top:140%;
+  left:40%;
+}
+
+#main-page .content {
+    position: relative;
+}
+
+#meat {
+  width: 300px;
+  float:left;
+  height: auto;
+}
+
+#fruits-vegs {
+  width: 250px;
+  height: auto;
+  float:right;
+}
