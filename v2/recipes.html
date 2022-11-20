@@ -4,7 +4,10 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     </head>
     <body id="recipes-page">
         <div class="navBar">
@@ -15,15 +18,17 @@
               </a>
             </div>
 
+<!--
             <div class="navigation">
-              <a href="features.html">Features</a>
+              <a href="index.html">Features</a>
               <h6 class="separator">|</h6>
-              <a href="team.html">Team</a>
+              <a href="index.html">Team</a>
               <h6 class="separator">|</h6>
-              <a href="products.html">Products</a>
+              <a href="index.html">Products</a>
               <h6 class="separator">|</h6>
-              <a href="recipes/recipes.html" id="recipes">Recipes</a>
+              <a href="recipesow.html" id="recipes">Recipes</a>
             </div>
+-->
 
             <div class="clear-floats"></div>
           </div>
@@ -31,35 +36,54 @@
         <div class="content">
           <h1>Recipes</h1>
 
-            <p><input type="text" class="quicksearch" placeholder="Search" /></p>
+            <input type="text" class="quicksearch" placeholder="Search"/>
             <div class="grid">
               <div class="element-item" data-category="transition">
-                <img class="recipe-img" src="images/smoothie1.png">
-                <h3 class="name">Banana Smoothie</h3>
+                  <a href="#transitionExample" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">
+                    <img class="recipe-img" src="images/smoothie1.png">
+                    <h3 class="name">Banana Smoothie</h3>
+                  </a>
               </div>
               <div class="element-item" data-category="transition">
-                <img class="recipe-img" src="images/cake.png">
-                <h3 class="name">Strawberry Cake</h3>
+                  <a href="#transitionExample" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">   
+                    <img class="recipe-img" src="images/cake.png">
+                    <h3 class="name">Strawberry Cake</h3>
+                  </a>
               </div>
               <div class="element-item" data-category="transition">
+                  <a href="#transitionExample" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">
                 <img class="recipe-img" src="images/smoothie1.png">
                 <h3 class="name">Peach Smoothie</h3>
+                  </a>
               </div>
               <div class="element-item" data-category="transition">
+                  <a href="#transitionExample" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">
                 <img class="recipe-img" src="images/smoothie1.png">
                 <h3 class="name">Strawberry Smoothie</h3>
+                  </a>
               </div>
               <div class="element-item" data-category="transition">
-                <img class="recipe-img" src="images/broth.png">
-                <h3 class="name">Vegetable Broth</h3>
+                <a href="#transitionExample" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">
+                    <img class="recipe-img" src="images/broth.png">
+                    <h3 class="name">Vegetable Broth</h3>
+                </a>
               </div>
               <div class="element-item" data-category="transition">
-                <img class="recipe-img" src="images/cake.png">
-                <h3 class="name">Banana Cake</h3>
+                <a href="#transitionExample" data-transition="flip" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-rel="popup">
+                    <img class="recipe-img" src="images/cake.png">
+                    <h3 class="name">Banana Cake</h3>
+                </a>
+                    
               </div>
          </div>
         </div>
-            
+            <div data-role="popup" id="transitionExample" class="ui-content" data-theme="a">
+                <p>Ingredients:</p>
+                <p>3 bananas</p>
+                <p>2 cups of flour</p>
+                <p>5 eggs</p>
+            </div>
+
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script type="text/javascript" src="main.js"></script>
     </body>    
