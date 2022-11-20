@@ -21,25 +21,20 @@ COLORS:
   float: left;
 }
 
-.navBar .logo img {
-  height: auto;
-  width: 250px;
-}
-
 @media only screen and (max-width: 6000px) {
   .navBar .logo img {
       height: auto;
       width: 250px;
   }
   .navigation {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  float: right;
-  width: 600px;
-  height: auto;
-  text-align: right;
-  padding-right: 10px;
-}
+      padding-top: 20px;
+      padding-bottom: 20px;
+      float: right;
+      width: 600px;
+      height: auto;
+      text-align: right;
+      padding-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 875px) {
@@ -229,4 +224,31 @@ h1 {
     padding-right:10px;
     font-size: 18px;
     font-weight: normal;
+}
+
+@media only screen and (max-width: 6000px) {
+    #meat {
+       height:300px;
+    }
+    #fruits-vegs {
+        height:300px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #meat {
+       height:200px;
+    }
+    #fruits-vegs {
+        height:200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #meat {
+       height:150px;
+    }
+    #fruits-vegs {
+        height:150px;
+    }
 }
