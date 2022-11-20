@@ -83,3 +83,11 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
+#main-page a {
+  text-decoration: none;
+  color: #FFD285;
+  background-color: #FE7E7E;
+  padding: 15px;
+  border-radius:10px; 
+}
