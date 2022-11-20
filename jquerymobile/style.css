@@ -26,13 +26,36 @@ COLORS:
   width: 250px;
 }
 
-.navigation {
+@media only screen and (max-width: 6000px) {
+  .navBar .logo img {
+      height: auto;
+      width: 250px;
+  }
+  .navigation {
   padding-top: 20px;
   padding-bottom: 20px;
   float: right;
   width: 600px;
   height: auto;
   text-align: right;
+  padding-right: 10px;
+}
+}
+
+@media only screen and (max-width: 875px) {
+  .navBar .logo img {
+      display: none;
+  }
+  .navigation {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      float: left;
+      width: 600px;
+      height: auto;
+      text-align: left;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 
 .navigation a {
