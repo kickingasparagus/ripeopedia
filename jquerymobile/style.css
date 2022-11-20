@@ -84,10 +84,18 @@ h2 {
   margin-right: auto;
 }
 
-#main-page a {
+#browse-button {
   text-decoration: none;
   color: #FFD285;
   background-color: #FE7E7E;
-  padding: 15px;
+  padding: 20px;
   border-radius:10px; 
+  font-size: 30px;
+}
+
+#features p {
+  color: #362e21;
+  text-align: center;
+  padding: 10px;
+  font-size: 35px;
 }
