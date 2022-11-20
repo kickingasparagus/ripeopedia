@@ -1,14 +1,50 @@
 <!DOCTYPE html> 
 <html>
-<head>
-	<title>Ripeopedia</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.css" />
-	<script src="https://code.jquery.com/jquery-[version].min.js"></script>
-	<script src="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.js"></script>
-</head>
+    <head>
+        <title>Ripeopedia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.css" />
+        <script src="https://code.jquery.com/jquery-[version].min.js"></script>
+        <script src="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.js"></script>
+    </head>
 
-<body>
-	...content goes here...
-</body>
+    <body>
+
+    <!-- Start of first page -->
+        <div data-role="page" id="mainContent">
+
+            <div data-role="header">
+                <h1>Ripeopedia</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <img id="main-logo" src="images/logo.png"/>
+                <h2>Ripe or not, don't be distraught!</h2>
+                <img id="meat" src="images/meat.png">
+                <img id="fruits-vegs" src="images/fruits_vegs.png"/>
+                <a href="#features">Browse Features</a>
+            </div>
+
+            <div data-role="footer">
+                <h4>Page Footer</h4>
+            </div><!-- /footer -->
+        </div>
+        <!-- /page -->
+
+        <!-- Start of second page -->
+        <div data-role="page" id="features">
+            <div data-role="header">
+                <h1>Features</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <p>Features page will go here.</p>
+                <p><a href="#mainContent">Back to main</a></p>
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h4>Page Footer</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+    </body>
 </html>
