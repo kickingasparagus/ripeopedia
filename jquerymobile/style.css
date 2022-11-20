@@ -67,7 +67,7 @@ h1 {
   font-size: 45px;
 }
 
-h2 {
+.tagline {
   color: #362e21;
   font-weight: bold;
   font-style: italic;
@@ -98,4 +98,112 @@ h2 {
   text-align: center;
   padding: 10px;
   font-size: 35px;
+}
+
+.products {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.product {
+  background-color: #5D271E;
+  display: inline-block;
+  padding:46px;
+  transition:0.3s;
+  border-radius: 20px;
+  width: 300px;
+  height:400px;
+  position:relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.product h2 {
+    color: #FFD285;
+    position: absolute;
+    top:15px;
+    left:10px;
+    right:10px;
+}
+
+/*
+.product:hover {
+  box-shadow: 0px 0px 20px #362e21;
+  width: 400px;
+  height: auto;
+}
+*/
+
+.product-img {
+  height:300px;
+  width: auto;
+/*  position: relative;*/
+  bottom:20px;
+}
+
+#ripeometer {
+
+}
+
+#rawometer {
+
+}
+
+#cookometer {
+
+}
+
+.product hr {
+  transition:0.3s;
+  margin: 10px -20px 20px;
+  color: #FFD285;
+  border: 0;
+  border-top: 2px solid #FFD285;
+}
+
+.buy-button {
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
+  background-color: transparent;
+  color: #FFD285;
+  border-color: #FFD285;
+  border-radius: 12px;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.3s;
+}
+
+.buy-button:hover { 
+  background-color: #FFD285;
+  color: #5D271E;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.price {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #FFD285;
+  border-radius: 10px;
+  border-color: #FFD285;
+  border: 2px solid #FFD285;
+  background-color: #FE7E7E;
+  padding: 5px;
+  font-weight: 100;
+}
+
+.products h4 {
+    color: #FFD285;
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:10px;
+    font-size: 18px;
+    font-weight: normal;
 }

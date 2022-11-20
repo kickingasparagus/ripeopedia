@@ -40,7 +40,7 @@
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
-                <h2>Ripe or not, don't be distraught!</h2>
+                <h2 class="tagline">Ripe or not, don't be distraught!</h2>
                 <br/>
                 <br/>
                 <a href="#features" id="browse-button">Browse Features</a>
@@ -78,6 +78,46 @@
         </div><!-- /page -->
         
         <!-- Start of third page -->
+        <div data-role="page" id="products">
+            <div data-role="header">
+                <h1>Products</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <div class="content">
+                  <div class="products">
+                    <div class="product" id="ripeometer">
+                        <h2>The Ripeometer</h2> 
+                        <h4>To make the perfect apple crumble</h4>
+                        <hr>
+                        <img class="product-img" src="images/RedRipeometer.png" />
+                        <h3 class="price">$35.99</h3>
+                        <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+                    </div>
+
+                    <div class="product" id="rawometer">
+                      <h2>The Rawometer</h2> 
+                      <h4>To spare your toilet from that putrid stench</h4>
+                      <hr>
+                      <img class="product-img" src="images/OrangeRawometer.png" />
+                      <h3 class="price">$29.99</h3>
+                      <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+                    </div>
+
+                    <div class="product" id="cookometer">
+                      <h2>The Cookometer</h2>
+                      <h4>For those who use both but only need one</h4>
+                      <hr>
+                      <img class="product-img" src="images/BlueCookometer.png" />
+                      <h3 class="price">$45.99</h3>
+                      <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+                    </div>
+
+                  </div>
+        </div>
+       
+        
+        <!-- Start of fourth page -->
         <div data-role="page" id="team">
             <div data-role="header">
                 <h1>Team</h1>
@@ -108,5 +148,6 @@
             </div><!-- /content -->
         </div><!-- /page -->
         
+        <script type="text/javascript" src="../main.js"></script>
     </body>
 </html>
