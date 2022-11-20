@@ -252,3 +252,15 @@ h1 {
         height:150px;
     }
 }
+
+.footer {
+    color: #FFD285;
+}
+
+.footer a:link {
+    color: #FFD285;
+}
+
+.footer a:visited {
+    color: #FFD285;
+}
