@@ -8,21 +8,28 @@
         <script src="https://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.js"></script>
     </head>
 
-    <body>
+    <body style="text-align: center;">
 
     <!-- Start of first page -->
         <div data-role="page" id="mainContent">
 
             <div data-role="header">
-                <h1>Ripeopedia</h1>
+                <img id="main-logo" src="images/logo.png"/>
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
-                <img id="main-logo" src="images/logo.png"/>
+                
                 <h2>Ripe or not, don't be distraught!</h2>
-                <img id="meat" src="images/meat.png">
-                <img id="fruits-vegs" src="images/fruits_vegs.png"/>
                 <a href="#features">Browse Features</a>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="ui-bar ui-bar-a" style="height:260px">
+                            <img id="meat" src="images/meat.png" height="100%">
+                            <img id="fruits-vegs" src="images/fruits_vegs.png" height="100%"/>
+                        </div>
+                        
+                    </div>
+                </div><!-- /grid-a -->                
             </div>
 
             <div data-role="footer">
