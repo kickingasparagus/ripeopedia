@@ -132,9 +132,9 @@ h1 {
 
 /*
 .product:hover {
-  box-shadow: 0px 0px 20px #362e21;
-  width: 400px;
-  height: auto;
+  box-shadow: 0px 0px 10px #362e21;
+  width: 320px;
+  height: 400px;
 }
 */
 
@@ -143,18 +143,6 @@ h1 {
   width: auto;
 /*  position: relative;*/
   bottom:20px;
-}
-
-#ripeometer {
-
-}
-
-#rawometer {
-
-}
-
-#cookometer {
-
 }
 
 .product hr {
