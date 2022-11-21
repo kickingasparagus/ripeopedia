@@ -397,7 +397,7 @@ html {
 }
 
 #team img {
-    border-radius: 360px;
+    border-radius: 1000px;
     box-shadow: 0 0 10px;
 }
 
@@ -410,7 +410,7 @@ html {
     font-style: italic;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1170px) {
   #team .column {
     width: 100%;
     display: block;
