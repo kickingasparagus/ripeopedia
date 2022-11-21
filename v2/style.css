@@ -150,6 +150,7 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
+  box-shadow: 0 1px 15px;
 }
 
 .product h2 {
@@ -307,7 +308,6 @@ h1 {
   letter-spacing: 0;
   font-size: 15px;
   font-weight: bold;
-
 }
 
 .recipe-img {
