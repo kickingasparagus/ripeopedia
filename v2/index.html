@@ -9,8 +9,7 @@
         <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     </head>
 
-    <body id="main-page" style="text-align: center;">
-    
+    <body id="main-page" style="text-align: center; background-color: #FFD285">
       <div class="navBar">
       <div class="container">
         <div class="logo">
@@ -33,7 +32,7 @@
       </div>
     </div>
     <!-- Start of first page -->
-        <div data-role="page" id="mainContent">
+        <div data-role="page" id="mainContent" >
 
             <div data-role="header">
                 <img id="main-logo" src="images/logo.png"/>
@@ -52,11 +51,10 @@
             </div>
         </div>
         <!-- /page -->
-        <hr style="color: #362e21;">
         <!-- Start of second page -->
-        <div data-role="page" id="features">
+        <div data-role="page" id="features" style="background-color: #362e21;" class="rounded-page">
             <div data-role="header">
-                <h1>Features</h1>
+                <h1 style="color: #FFD285">Features</h1>
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
@@ -76,11 +74,10 @@
                 to make depending on the status of the food </p>
             </div><!-- /content -->
         </div><!-- /page -->
-        <hr class="page-separator">
         <!-- Start of third page -->
-        <div data-role="page" id="products">
+        <div data-role="page" id="products" class="rounded-page" style="background-color: #FE7E7E">
             <div data-role="header">
-                <h1>Products</h1>
+                <h1 style="color: #FFD285">Products</h1>
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
@@ -118,10 +115,9 @@
             </div>
         </div>
        
-        <hr>
         <!-- Start of fourth page -->
         <!-- This tutorial helped a lot: https://www.w3schools.com/howto/howto_css_about_page.asp -->
-        <div data-role="page" id="team">
+        <div data-role="page" id="team"  >
             <div data-role="header">
                 <h1>Team</h1>
             </div><!-- /header -->
@@ -141,7 +137,7 @@
                 <div class="card">
                   <img src="images/ahmad.jpg" style="width:100%">
                   <div class="container">
-                    <h2>Ahmad</h2>
+                    <h2 style="color: ">Ahmad</h2>
                     <p class="title">Founder</p>
                     <p>I love the feeling I get when I bite into a ripe banana!</p>
                   </div>
@@ -178,7 +174,8 @@
                 </div>
               </div>
             </div><!-- /content -->
-            <div class="footer" data-role="footer" data-position="fixed" style="background: #362e21">
+        </div><!-- /page -->
+        <div class="footer" data-role="footer" data-position="fixed" style="background: #362e21; padding: 15px;">
                 <a href="#team">About Us</a>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Careers</a>
@@ -186,9 +183,7 @@
                 <a href="#">Terms of Use</a>
                 <br />
                 Copyright (c) 2022 Ripeopedia. All Rights Reserved.
-            </div>
-        </div><!-- /page -->
-        
+        </div>
         <script type="text/javascript" src="main.js"></script>
     </body>
 </html>

@@ -94,6 +94,12 @@ h1 {
   font-size: 32px;
 }
 
+.rounded-page {
+    margin: 30px;
+    border-radius: 30px; 
+    box-shadow: 0 0 5px;
+}
+
 @media only screen and (max-width: 6000px) { 
     #main-logo {
       width: 600px;
@@ -124,7 +130,7 @@ h1 {
 }
 
 #features p {
-  color: #362e21;
+  color: #FFD285;
   text-align: center;
   padding: 10px;
   font-size: 35px;
@@ -138,19 +144,50 @@ h1 {
   padding-bottom: 20px;
 }
 
-.product {
-  background-color: #5D271E;
-  display: inline-block;
-  padding:46px;
-  transition:0.3s;
-  border-radius: 20px;
-  width: 400px;
-  height:500px;
-  position:relative;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 1px 15px;
+@media only screen and (max-width: 6000px) { 
+    .product {
+      background-color: #5D271E;
+      display: inline-block;
+      padding:46px;
+      transition:0.3s;
+      border-radius: 20px;
+      width: 400px;
+      height:500px;
+      position:relative;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 15px;
+    }
+    .product-img {
+      height:300px;
+      width: auto;
+/*      position: relative;*/
+      bottom:20px;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .product {
+      background-color: #5D271E;
+      display: inline-block;
+      padding:46px;
+      transition:0.3s;
+      border-radius: 20px;
+      width: 300px;
+      height:400px;
+      position:relative;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 15px;
+    }
+    .product-img {
+      height:200px;
+      width: auto;
+    /*  position: relative;*/
+      bottom:20px;
+    }
 }
 
 .product h2 {
@@ -169,12 +206,6 @@ h1 {
 }
 */
 
-.product-img {
-  height:300px;
-  width: auto;
-/*  position: relative;*/
-  bottom:20px;
-}
 
 .product hr {
   transition:0.3s;
@@ -346,6 +377,9 @@ html {
 #team .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  background-color: #362e21;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 #team .container {
@@ -359,23 +393,21 @@ html {
 }
 
 #team .title {
-  color: grey;
+  color: #FFD285;
 }
 
-#team .button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
+#team img {
+    border-radius: 360px;
+    box-shadow: 0 0 10px;
 }
 
-#team .button:hover {
-  background-color: #555;
+#team h2 {
+    color: #FFD285;
+}
+
+#team p {
+    color: #FFD285;
+    font-style: italic;
 }
 
 @media screen and (max-width: 650px) {
