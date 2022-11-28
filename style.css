@@ -300,13 +300,22 @@ h1 {
     width:2
 }
 */
-
+.privacyNotice {
+    color: #362e21;
+    font-family: Verdana, sans-serif;
+}
 .footer a:link {
     color: #FFD285;
 }
 
 .footer a:visited {
     color: #FFD285;
+}
+
+.big {
+    color: #362e21;
+    font-size: 35px;
+    font-style: bold;
 }
 
 /* Recipes page */
