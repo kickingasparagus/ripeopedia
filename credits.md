@@ -11,3 +11,6 @@
 - https://pixabay.com/vectors/banana-juice-fruit-smoothie-4489567/
 - https://pixabay.com/vectors/slurpee-slushy-frozen-drink-cold-4798222/
 - https://pixabay.com/vectors/cake-birthday-dessert-celebration-6364361/
+
+**We used this website to help us write the privacy policy**:
+- https://termly.io
