@@ -8,3 +8,6 @@
 - https://pixabay.com/vectors/rotten-meat-mould-bread-rot-decay-4326830/
 - https://pixabay.com/vectors/barcode-barcode-reader-scan-6141974/
 - https://creazilla.com/nodes/13241-fruits-and-vegetables-clipart
+- https://pixabay.com/vectors/banana-juice-fruit-smoothie-4489567/
+- https://pixabay.com/vectors/slurpee-slushy-frozen-drink-cold-4798222/
+- https://pixabay.com/vectors/cake-birthday-dessert-celebration-6364361/
