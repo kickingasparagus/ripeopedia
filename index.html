@@ -1,19 +1,15 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D1TW35289D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <head>
+        <title>Ripeopedia</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    </head>
 
-  gtag('config', 'G-D1TW35289D');
-</script>
-  <body id="main-page">
-    <div class="navBar">
+    <body id="main-page" style="text-align: center; background-color: #FFD285">
+      <div class="navBar">
       <div class="container">
         <div class="logo">
           <a href="index.html">
@@ -22,25 +18,171 @@
         </div>
 
         <div class="navigation">
-          <a href="features.html">Features</a>
+          <a href="#features">Features</a>
           <h6 class="separator">|</h6>
-          <a href="team.html">Team</a>
+          <a href="#products">Products</a>
           <h6 class="separator">|</h6>
-          <a href="products.html">Products</a>
+          <a href="#team">Team</a>
           <h6 class="separator">|</h6>
-          <a href="new_recipes.html" id="recipes">Recipes</a>
+          <a href="recipes.html" id="recipes">Recipes</a>
         </div>
 
         <div class="clear-floats"></div>
       </div>
     </div>
+    <!-- Start of first page -->
+        <div data-role="page" id="mainContent" >
 
-    <div class="content">        
-        <img id="main-logo" src="images/logo.png"/>
-        <h2>Ripe or not, don't be distraught!</h2>
-        <img id="meat" src="images/meat.png">
-        <img id="fruits-vegs" src="images/fruits_vegs.png"/>
-        <a href="features.html">Browse Features</a>
-    </div>
-  </body>
+            <div data-role="header">
+                <img id="main-logo" src="images/logo.png"/>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <h2 class="tagline">Ripe or not, don't be distraught!</h2>
+                <br/>
+                <br/>
+                <a href="#features" id="browse-button">Browse Features</a>
+                <br/>
+                <br/>
+                <br/>
+                <img id="meat" src="images/meat.png">
+                <img id="fruits-vegs" src="images/fruits_vegs.png"/>
+            </div>
+        </div>
+        <!-- /page -->
+        <!-- Start of second page -->
+        <div data-role="page" id="features" style="background-color: #362e21;" class="rounded-page">
+            <div data-role="header">
+                <h1 style="color: #FFD285">Features</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <p>Ripe or raw, this revolutionary kitchen tool
+                will indicate what to do with your food depending on its state.
+                Our alogrithm is accurate to a millionth of a percentile
+                no matter the food, colour, or the shape!</p>
+                <p >Our revolutionary technology incorporates
+                nanotech, thermal, and pH sensors to
+                detect different stages of food:
+                </p> 
+                <p style="font-size: 30px;">- Detects if meat is:
+                raw, slightly undercooked, perfectly cooked, or overly cooked
+                </p>
+                <p style="font-size: 30px;">- Tells you if meat is spoiled </p>
+                <p style="font-size: 30px;">- Suggests recipes to user of what food
+                to make depending on the status of the food </p>
+            </div><!-- /content -->
+        </div><!-- /page -->
+        <!-- Start of third page -->
+        <div data-role="page" id="products" class="rounded-page" style="background-color: #FE7E7E">
+            <div data-role="header">
+                <h1 style="color: #FFD285">Products</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <div class="content">
+                  <div class="products">
+                    <div class="product" id="ripeometer">
+                        <h2>The Ripeometer</h2> 
+                        <h4>To make the perfect apple crumble</h4>
+                        <hr>
+                        <img class="product-img" src="images/RedRipeometer.png" />
+                        <h3 class="price">$35.99</h3>
+                        <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+                    </div>
+
+                    <div class="product" id="rawometer">
+                      <h2>The Rawometer</h2> 
+                      <h4>To spare your toilet from that putrid stench</h4>
+                      <hr>
+                      <img class="product-img" src="images/OrangeRawometer.png" />
+                      <h3 class="price">$29.99</h3>
+                      <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+                    </div>
+
+                    <div class="product" id="cookometer">
+                      <h2>The Cookometer</h2>
+                      <h4>For those who use both but only need one</h4>
+                      <hr>
+                      <img class="product-img" src="images/BlueCookometer.png" />
+                      <h3 class="price">$45.99</h3>
+                      <button onclick="outOfStockMessage()" type="button" class="buy-button">Buy</button>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- Start of fourth page -->
+        <!-- This tutorial helped a lot: https://www.w3schools.com/howto/howto_css_about_page.asp -->
+        <div data-role="page" id="team"  >
+            <div data-role="header">
+                <h1>Team</h1>
+            </div><!-- /header -->
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                  <img src="images/abdu.jpg" style="width:100%">
+                  <div class="container">
+                    <h2>Abdu</h2>
+                    <p class="title">Founder</p>
+                    <p>Let's change the future of cooking!</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <img src="images/ahmad.jpg" style="width:100%">
+                  <div class="container">
+                    <h2 style="color: ">Ahmad</h2>
+                    <p class="title">Founder</p>
+                    <p>Raw meat is a no-no</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/aparna.jpg" style="width:100%">
+                  <div class="container">
+                    <h2>Aparna</h2>
+                    <p class="title">Founder</p>
+                    <p>Ripe is the new cool</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/Touki.jpg" style="width:100%">
+                  <div class="container">
+                    <h2>Tokii</h2>
+                    <p class="title">Founder</p>
+                    <p>Use Ripeopedia. Trust me...</p>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="card">
+                  <img src="images/daniel.jpg" style="width:100%">
+                  <div class="container">
+                    <h2>Daniel</h2>
+                    <p class="title">Founder</p>
+                    <p>Cooking has never been this easy!</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /content -->
+        </div><!-- /page -->
+        <div class="footer" data-role="footer" data-position="fixed" style="background: #362e21; padding: 15px;">
+                <a href="#team">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Careers</a>
+                <a href="recipes.html">Recipes</a>
+                <a href="#">Terms of Use</a>
+                <br />
+                Copyright (c) 2022 Ripeopedia. All Rights Reserved.
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
 </html>
