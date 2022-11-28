@@ -53,6 +53,11 @@ COLORS:
     }
 }
 
+
+#recipes-page .navBar .logo img {
+  display: block;
+}
+
 .navigation a {
   padding: 5px;
   color: #FFD285;
