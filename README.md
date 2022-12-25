@@ -2,7 +2,7 @@
 
 **Product Name:** Ripeopedia
 
-**Product Description:** Ripeopedia is device that checks a fruit/vegetable and tells its users whether that fruit/vegetable has gone bad (or how many days it has until it goes bad). 
+**Product Description:** Ripeopedia is a device that checks a fruit/vegetable and tells its users whether that fruit/vegetable has gone bad (or how many days it has until it goes bad). 
 
 GitHub Pages Link:
 - https://kickingasparagus.github.io/ripeopedia/
